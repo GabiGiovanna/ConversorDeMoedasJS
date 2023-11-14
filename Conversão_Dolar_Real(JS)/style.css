@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    padding: 0;
+
+    background: linear-gradient(#e66465, #9198e5);
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+}
+
+form {
+    width: 25%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.btn {
+    border-radius: 20px;
+    padding: 3%;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.352);
+    border: none;
+}
+
+.btn:hover{
+    background-color: black;
+    color: beige;
+    box-shadow: 0px 0px 10px 10px rgba(245, 245, 245, 0.486);
+}
+
+
+
+
+.txt {
+    border: none;
+    padding: 3%;
+    width: 50%;
+    height: 1vh;
+    border-radius: 20px;
+    margin-bottom: 5%;
+    font-size: 1em;
+}
+
+.txt1{
+    color: rgb(36, 33, 29);
+}
+
+h2{
+text-align: center;
+margin-left: auto;
+text-shadow: 0px 0px 30px rgba(0, 0, 0, 0.87);
+background: linear-gradient(180deg, rgba(0, 240, 255, 0.67) 0%, #FAFF00 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-family: 'Nosifer', sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 800;
+line-height: 90%; /* 9.827px */
+letter-spacing: 4.96px;
+}
+
+@media (max-Width:1075px) {
+
+    nav{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
